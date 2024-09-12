@@ -43,7 +43,7 @@ describe('Google Search', ()=>{
         const googleSearch = cy.get('.gLFyf');
 
         googleSearch.type('123');
-        googleSearch.should('have.value','123');
+        googleSearch.should('have.value','123'); //verify if the value 123 is in the search bar
         
         })
 
